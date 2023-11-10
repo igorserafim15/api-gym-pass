@@ -1,0 +1,12 @@
+# @name CreateUser
+POST http://localhost:3333/users
+content-type: application/json
+# Authorization: Bearer xxx
+
+{
+  "name": "John",
+  "email": "email1@email.com",
+  "password": "123456"
+}
+
+###
